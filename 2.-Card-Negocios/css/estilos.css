@@ -1,0 +1,72 @@
+/* fuentes  */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca:wght@400;700&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+body
+{
+    width: 100vh;
+    height: 100vh;
+    background-color:  hsl(233, 47%, 7%);
+    color:#ffff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 10%;
+    overflow-x:scroll;
+
+    overflow-y:hidden;
+    
+    
+}
+
+.contenedor
+{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: 1fr;
+    background-color: hsl(244, 38%, 16%);
+    
+}
+
+.informacion
+{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    padding: 20px;
+}
+.informacion .descripcion
+{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.portada
+{
+    background-image: url(../images/image-header-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.datos
+{
+    display: flex;
+    justify-content: space-around;
+}
+.datos p
+{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.datos p span
+{
+    color: hsla(0, 0%, 100%, 0.342);
+}
+
+.titulo span
+{
+    color: rgb(142 85 189);
+    
+}
